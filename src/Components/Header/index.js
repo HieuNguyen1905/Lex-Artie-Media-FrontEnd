@@ -44,7 +44,7 @@ function Header() {
                         Films
                       </NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="#action2">Contact</Nav.Link>
+                    <Nav.Link href="/contactme">Contact</Nav.Link>
                     <Nav.Link href="#action2">Book now</Nav.Link>
                   </Nav>
                 </Offcanvas.Body>
