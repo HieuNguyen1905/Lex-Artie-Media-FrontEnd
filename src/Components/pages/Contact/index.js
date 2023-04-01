@@ -93,6 +93,13 @@ const Contact = () => {
           </Stack>
         </Stack>
       </Form.Group>
+      <Form.Group className="mb-3  " controlId="formBasicEmail">
+        <Form.Text className="text-muted">Package</Form.Text>
+        <br></br>
+        <Form.Label>Wedding/Couple: $5,000</Form.Label>
+        <br></br>
+        <Form.Label>Film: $6,000</Form.Label>
+      </Form.Group>
     </Container>
   );
 };
