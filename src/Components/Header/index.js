@@ -25,27 +25,27 @@ function Header() {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   <Nav className="justify-content-end flex-grow-1 pe-3">
-                    <Nav.Link href="#action1">About me</Nav.Link>
+                    <Nav.Link href="/aboutme">About me</Nav.Link>
                     <NavDropdown
                       title="Gallery"
                       id={`offcanvasNavbarDropdown-expand-md`}
                     >
-                      <NavDropdown.Item href="#action3">Wedding</NavDropdown.Item>
+                      <NavDropdown.Item href="/gallery/wedding">Wedding</NavDropdown.Item>
                       <NavDropdown.Divider />
-                      <NavDropdown.Item href="#action4">
+                      <NavDropdown.Item href="/gallery/couple">
                         Couple
                       </NavDropdown.Item>
                       <NavDropdown.Divider />
-                      <NavDropdown.Item href="#action5">
+                      <NavDropdown.Item href="/gallery/portrait">
                         Portrait
                       </NavDropdown.Item>
                       <NavDropdown.Divider />
-                      <NavDropdown.Item href="#action6">
+                      <NavDropdown.Item href="/gallery/films">
                         Films
                       </NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="#action2">Contact</Nav.Link>
-                    <Nav.Link href="#action2">Book now</Nav.Link>
+                    <Nav.Link href="/contactme">Contact</Nav.Link>
+                    <Nav.Link href="/booking">Book now</Nav.Link>
                   </Nav>
                 </Offcanvas.Body>
               </Navbar.Offcanvas>

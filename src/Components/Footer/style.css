@@ -1,5 +1,18 @@
 .footerlogo{
     height:50px;
     width:50px;
-    margin-right:10px
+    padding:5px;
+    margin-right:2vw
+}
+
+.profileImg{
+    height: 110px;
+    width:110px;
+    padding:5px;
+    border-radius: 55px;
+    border:2px solid #1212123d;
+    position:relative;
+    bottom:30px;
+    right:5px;
+    background-color: #ffff;
 }
