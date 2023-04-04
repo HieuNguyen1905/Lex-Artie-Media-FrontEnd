@@ -1,10 +1,12 @@
 import React from "react";
 import { Container, Card, Form, Stack, Image } from "react-bootstrap";
 import logo from "../../Assets/logo.png";
+import Package from "../../Package"
+import "../Contact/style.css"
 
 const Contact = () => {
   return (
-    <Container>
+    <div className="contact">
       <Image
         variant="top"
         style={{
@@ -23,6 +25,7 @@ const Contact = () => {
         ></Image>
           <Card.Text>-I capture the endless moments 📸</Card.Text>
       </Stack>
+      <Container>
       <Form.Group className="mb-3  " controlId="formBasicEmail">
         <Form.Text className="text-muted">Email</Form.Text>
         <br></br>
@@ -38,13 +41,13 @@ const Contact = () => {
         <br></br>
         <Stack gap={3}>
           <Stack direction="horizontal" gap={3}>
-            <a href="https://www.facebook.com/lexArtieMedia" target="_blank">
+            <a href="https://www.facebook.com/lexArtieMedia" target="_blank" rel="noreferrer" >
               <Image
                 src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-transparent-png.png"
                 className="footerlogo"
               ></Image>
             </a>
-            <a href="https://www.facebook.com/lexArtieMedia" target="_blank">
+            <a href="https://www.facebook.com/lexArtieMedia" target="_blank" rel="noreferrer">
               <Form.Label>@lexArtieMedia · Photographer</Form.Label>
             </a>
           </Stack>
@@ -53,6 +56,7 @@ const Contact = () => {
             <a
               href="https://www.instagram.com/hi_alexdabao/?igshid=ZjE2NGZiNDQ%3D"
               target="_blank"
+              rel="noreferrer"
             >
               <Image
                 src="https://www.theexaminernews.com/examiner-news/wp-content/uploads/2021/09/instagram-logo-transparent.png"
@@ -62,18 +66,19 @@ const Contact = () => {
             <a
               href="https://www.instagram.com/hi_alexdabao/?igshid=ZjE2NGZiNDQ%3D"
               target="_blank"
+              rel="noreferrer"
             >
               <Form.Label>@hi_alexdabao</Form.Label>
             </a>
           </Stack>
           <Stack direction="horizontal" gap={3}>
-            <a href="https://www.tiktok.com/@hi_alexdabao" target="_blank">
+            <a href="https://www.tiktok.com/@hi_alexdabao" target="_blank" rel="noreferrer">
               <Image
                 src="https://images.rawpixel.com/image_png_social_square/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2pvYjkwOC1jYS03Ml8xLnBuZw.png"
                 className="footerlogo"
               ></Image>
             </a>
-            <a href="https://www.tiktok.com/@hi_alexdabao" target="_blank">
+            <a href="https://www.tiktok.com/@hi_alexdabao" target="_blank" rel="noreferrer">
               <Form.Label>@hi_alexdabao</Form.Label>
             </a>
           </Stack>
@@ -81,26 +86,27 @@ const Contact = () => {
             <a
               href="https://lexartie.pic-time.com/portfolio?fbclid=IwAR1rGBEaQDX04ALAA0pR0G1ZP356UXp3NYOnRf1_nyXhBytY0CiE0EQ1bRs"
               target="_blank"
+              rel="noreferrer"
             >
               <Image src={logo} className="footerlogo"></Image>
             </a>
             <a
               href="https://lexartie.pic-time.com/portfolio?fbclid=IwAR1rGBEaQDX04ALAA0pR0G1ZP356UXp3NYOnRf1_nyXhBytY0CiE0EQ1bRs"
               target="_blank"
+              rel="noreferrer"
             >
               <Form.Label>@LEX ARTIE PHOTOGRAPHY</Form.Label>
             </a>
           </Stack>
         </Stack>
       </Form.Group>
-      <Form.Group className="mb-3  " controlId="formBasicEmail">
+      <Form.Group className="mb-3  " controlId="formBasicEmail" gap={5}>
         <Form.Text className="text-muted">Package</Form.Text>
         <br></br>
-        <Form.Label>Wedding/Couple: $5,000</Form.Label>
-        <br></br>
-        <Form.Label>Film: $6,000</Form.Label>
+        <Package />
       </Form.Group>
-    </Container>
+      </Container>
+    </div>
   );
 };
 

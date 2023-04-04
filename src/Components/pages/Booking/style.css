@@ -1,0 +1,45 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+.booking{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(to bottom,#f8f9fa , #ffff) ;
+}
+
+.booking h1{
+    font-family: 'Caveat', cursive;
+    font-size:3vmax;
+    text-align: center;
+
+}
+
+.booknow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid #d2d2d2;
+    width:100%;
+    margin: 3% 0 3% 0
+}
+
+.bookingCard{
+min-width:30%;
+   padding:2%;
+   display:flex
+}
+
+.cameraphoto{
+    height:70px;
+    object-fit: cover;
+    position: relative;
+    top:30px;
+    background-color:#f8f9fa;
+    margin: 0 20px 0 20px;
+}
+
+.cardcontainer{
+    display: flex;
+    width:100%
+}

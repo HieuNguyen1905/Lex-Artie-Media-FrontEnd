@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./Components/Header/index.js";
 import Footer from "./Components/Footer/index.js";
 import Contact from "./Components/pages/Contact/index.js"
+import Booking from "./Components/pages/Booking/Booking.js";
 import './style.css'
 
 function App() {
@@ -10,8 +11,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Header />
-        <Routes>
+        <Routes className="body">
           <Route path='/contactme' element={<Contact/>}/>
+          <Route path='/booking' element={<Booking/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
