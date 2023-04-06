@@ -16,3 +16,15 @@
     right:5px;
     background-color: #ffff;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+.footerh1{
+    font-family: 'Caveat', cursive;
+    font-size:3vmax;
+    text-align: center;
+    margin:25px 55px 25px 55px;
+}
+
+.footer{
+    background:linear-gradient(to top,#f8f9fa , #ffff) 
+}

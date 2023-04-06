@@ -2,16 +2,16 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Image, Row } from "react-bootstrap";
+import { Image} from "react-bootstrap";
 import logo from "../Assets/logo.png"
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "./style.css";
 
 const Footer = () => {
   return (
-    <Navbar key="sm" bg="light" expand="sm" className="mb-6">
+    <Navbar key="sm" bg="light" expand="sm" className="mb-6 footer">
     <Container fluid>
-      <Navbar.Brand href="#">Lex Artie Media</Navbar.Brand>
+      <Navbar.Brand href="#"><h1 className="footerh1">Lex Artie Media</h1></Navbar.Brand>
       <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-sm`} />
       <Navbar.Offcanvas
         id={`offcanvasNavbar-expand-sm`}

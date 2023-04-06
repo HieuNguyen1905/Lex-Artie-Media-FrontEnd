@@ -5,13 +5,14 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import "../Header/style.css"
 
 function Header() {
     return (
       <>
           <Navbar key="md" bg="light" expand="lg" className="mb-6">
             <Container fluid>
-              <Navbar.Brand href="#">Lex Artie Media</Navbar.Brand>
+              <Navbar.Brand href="#" ><h1 className="brandname">Lex Artie Media</h1></Navbar.Brand>
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
               <Navbar.Offcanvas
                 id={`offcanvasNavbar-expand-md`}
